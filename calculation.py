@@ -80,3 +80,9 @@ expression = transform(expression)
 print('Transform Result:', expression)
 result = calculate(expression)
 print('Result:', result)
+
+# Console Result
+# =============================
+# Expression: 6*(5+(2-3)*8+3)
+# Transform Result: 6523-8*+3+*
+# Result: 0
